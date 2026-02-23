@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stylesConsulta.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo-hospital.png" alt="Logo Hospital" />
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><button type="button">Inicio</button></a>
+          </li>
+          <li>
+            <a href="consultas.html"
+              ><button type="button" class="btn-gris">Consultas</button></a
+            >
+          </li>
+          <li>
+            <a href="servicios.html"
+              ><button type="button">Servicios de Salud</button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contenedor-principal">
+      <section class="seccion-reportes">
+        <h1 class="titulo-vista">REPORTES</h1>
+
+        <div class="tarjeta-blanca">
+          <div class="barra-filtros">
+            <span class="icono-menu">☰</span>
+            <input
+              type="text"
+              placeholder="Escribe aquí para filtrar reportes..."
+            />
+            <span class="icono-busqueda">🔍</span>
+          </div>
+
+          <div class="contenido-vacio">
+            <div class="circulo-busqueda">
+              <span class="signo-alerta">!</span>
+              <div class="lupa-mango"></div>
+            </div>
+            <p class="texto-informativo">
+              No ha generado ningún reporte las últimas 24 horas.
+            </p>
+            <p class="texto-instruccion">
+              Para generar un reporte seleccione los filtros de su interés.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Para cualquier novedad comuníquese con nuestra línea de atención
+        gratuita #############
+      </p>
+    </footer>
+  </body>
+</html>

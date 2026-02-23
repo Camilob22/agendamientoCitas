@@ -1,0 +1,58 @@
+/* Contenedor del menú de iconos */
+.menu-iconos-citas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  border: 2px dashed #b1b4ff;
+  padding: 15px 40px;
+  border-radius: 20px;
+  margin: 0 auto 50px auto;
+  width: fit-content;
+}
+
+.opcion-cita {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  min-width: 100px;
+  font-weight: bold;
+}
+
+.opcion-cita:hover {
+  transform: scale(1.1);
+}
+
+/* Estilo para la opción seleccionada */
+.opcion-cita.activa p {
+  font-weight: bold;
+  color: #000;
+}
+
+.icono-placeholder {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+/* Reutilizamos el estilo del círculo de búsqueda de consultas*/
+.circulo-busqueda {
+  width: 100px;
+  height: 100px;
+  border: 6px solid #1a4d6d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+
+.signo-alerta {
+  color: #3fb6ff;
+  font-size: 60px;
+  font-weight: bold;
+}
